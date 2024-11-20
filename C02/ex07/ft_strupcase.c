@@ -6,7 +6,7 @@
 /*   By: joscueva <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/19 15:26:11 by joscueva          #+#    #+#             */
-/*   Updated: 2024/11/19 15:39:05 by joscueva         ###   ########.fr       */
+/*   Updated: 2024/11/20 14:36:40 by joscueva         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ char	*ft_strupcase(char *str)
 {
 	char	*start;
 
-	*start = str;
+	start = str;
 	while (*str)
 	{
 		if (*str >= 'a' && *str <= 'z')

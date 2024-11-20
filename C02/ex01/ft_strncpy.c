@@ -6,13 +6,13 @@
 /*   By: joscueva <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/15 14:24:59 by joscueva          #+#    #+#             */
-/*   Updated: 2024/11/18 16:42:41 by joscueva         ###   ########.fr       */
+/*   Updated: 2024/11/20 14:28:06 by joscueva         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 
-void	ft_strncpy(char *dest, char *src, int n)
+char	*ft_strncpy(char *dest, char *src, int n)
 {
 	int	i;
 
@@ -27,6 +27,7 @@ void	ft_strncpy(char *dest, char *src, int n)
 		dest[i] = '\0';
 		i++;
 	}
+	return (dest);
 }
 /*int	main(void)
 {
