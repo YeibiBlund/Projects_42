@@ -23,7 +23,7 @@ char	*ft_strcat(char *dest, char *src)
 	return (dest);
 }
 
-int	main() {
+/*int	main() {
     char dest[50] = "Hola";
     char src[] = " Mundo";
 
@@ -32,4 +32,4 @@ int	main() {
     printf("Cadena concatenada: %s\n", resultado);
 
     return 0;
-}
+}*/

@@ -20,7 +20,7 @@ int	ft_strncmp(char *s1, char *s2, unsigned int n)
 	return (0);
 }
 
-int	main(void)
+/*int	main(void)
 {
 	printf("%d\n", ft_strncmp("Hola", "Hola", 4));
 	printf("%d\n", ft_strncmp("Hola", "Hula", 2));
@@ -29,4 +29,4 @@ int	main(void)
 	printf("%d\n", ft_strncmp("Hola", "HolaMundo", 8));
 	printf("%d\n", ft_strncmp("Hola", "", 4));
 	return (0);
-}
+}*/
