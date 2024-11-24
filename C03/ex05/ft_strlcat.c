@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-// Función para calcular la longitud de una cadena
 unsigned int	ft_strlen(char *str)
 {
 	unsigned int	len;
@@ -13,7 +12,6 @@ unsigned int	ft_strlen(char *str)
 	return (len);
 }
 
-// Función para concatenar dos cadenas de forma segura
 unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
 {
 	unsigned int	dest_len;
