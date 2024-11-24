@@ -1,0 +1,74 @@
+====================================EX00====================================
+/*int main(void)
+{
+    char str1[] = "Hola";
+    char str2[] = "Hola";
+    char str3[] = "Mundo";
+    char str4[] = "Hol";
+
+    printf("ft_strcmp(str1, str2): %d\n", ft_strcmp(str1, str2));
+    printf("ft_strcmp(str1, str3): %d\n", ft_strcmp(str1, str3));
+    printf("ft_strcmp(str3, str1): %d\n", ft_strcmp(str3, str1));
+    printf("ft_strcmp(str1, str4): %d\n", ft_strcmp(str1, str4));
+}*/
+====================================EX01====================================
+/*int	main(void)
+{
+	printf("%d\n", ft_strncmp("Hola", "Hola", 4));
+	printf("%d\n", ft_strncmp("Hola", "Hula", 2));
+	printf("%d\n", ft_strncmp("Hola", "Holanda", 4));
+	printf("%d\n", ft_strncmp("Hola", "Hula", 4));
+	printf("%d\n", ft_strncmp("Hola", "HolaMundo", 8));
+	printf("%d\n", ft_strncmp("Hola", "", 4));
+	return (0);
+}*/
+====================================EX02====================================
+/*int	main() {
+    char dest[50] = "Hola";
+    char src[] = " Mundo";
+
+    char *resultado = ft_strcat(dest, src);
+
+    printf("Cadena concatenada: %s\n", resultado);
+
+    return 0;
+}*/
+====================================EX03====================================
+/*int	main() {
+    char dest[50] = "Hola";
+    char src[] = " Mundo";
+
+    char *resultado = ft_strncat(dest, src);
+
+    printf("Cadena concatenada: %s\n", resultado);
+
+    return 0;
+}*/
+====================================EX04====================================
+/*int main() {
+    char str[] = "Hola mundo, esto es una prueba";
+    char to_find[] = "mundo";
+
+    char *result = ft_strstr(str, to_find);
+
+    if (result != NULL)
+        printf("Subcadena encontrada: '%s'\n", result);
+    else
+        printf("Subcadena no encontrada\n");
+
+    return 0;
+}*/
+====================================EX05====================================
+/*int main(void)
+{
+    char dest[20] = "Hola ";
+    char src[] = "mundo.";
+    unsigned int size = 20;  // Tamaño total del búfer
+
+    unsigned int result = ft_strlcat(dest, src, size);
+
+    printf("Cadena resultante: %s\n", dest);
+    printf("Longitud: %u\n", result);
+
+    return 0;
+}*/
