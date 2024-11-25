@@ -1,0 +1,28 @@
+1 - Abrir archivo .bashrc para poner los alias con el comando:
+
+--- nano ~/.bashrc
+
+2 - Escribir etos alias al final del archivo: 
+
+alias clean_out="find . -type f -name '*.out' -exec rm -f {} \;"
+
+git42() {
+    git pull
+
+    # Agregar todos los cambios al staging area
+    git add .
+
+    # Si se pasa un mensaje de commit, usarlo. Si no, usar el mensaje predeterm>
+    if [ -z "$1" ]; then
+        git commit -m "Actualización de cambios"
+    else
+        git commit -m "$1"
+    fi
+
+    # Hacer push de los cambios al remoto
+    git push
+}
+
+3 -Recargar SOURCE:
+
+---- source ~/.bashrc
