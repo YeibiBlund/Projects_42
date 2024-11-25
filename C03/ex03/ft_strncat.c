@@ -12,10 +12,10 @@
 
 #include <stdio.h>
 
-char	*ft_strncat(char *dest, char *src, int n)
+char	*ft_strncat(char *dest, char *src, unsigned int n)
 {
-	int	i;
-	int	j;
+	unsigned int	i;
+	unsigned int	j;
 
 	i = 0;
 	j = 0;
