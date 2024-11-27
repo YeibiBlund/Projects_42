@@ -11,3 +11,16 @@ void	ft_putstr(char *str)
 		i++;
 	}
 }
+
+/*
+int main(void)
+{
+    char input[100];
+
+    write(1, "Introduce word: ", 16);
+    scanf("%99s", input);
+
+    ft_putstr(input);
+	write(1, "\n", 1);
+    return 0;
+}*/
